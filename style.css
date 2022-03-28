@@ -1,0 +1,86 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  background: url(jeremy-thomas-E0AHdsENmDg-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  position:  relative;
+}
+
+h1 {
+  color: #000000;
+  font-size: 8vw;
+  text-shadow: -2px 2px 0 darkgray;,
+                2px 2px 0 darkgray,
+                2px -2px 0 darkgray,
+               -2px -2px 0 darkgray;
+}
+h2 {
+  color: #000000;
+  font-size: 6vw;
+}
+h6 {
+  color: #ffffff;
+
+}
+
+.btn {
+  font-weight: 700;
+  border-radius:  300px;
+  text-transform: uppercase;
+}
+
+.btn-primary{
+  background-color: #82628f;
+  border-color: #82628f;
+
+}
+
+.btn-primary:hover {
+  background-color: #896996;
+  border-color: #896996;
+  border-width: 4px; 
+  color: black;
+
+}
+
+.btn-primary:focus,
+.btn-primary:active{
+  background-color: #896996;
+  border-color: #896996;
+  border-width: 4px; 
+  margin-color: #896996;
+  color: black;
+  outline-color: black;
+  box-shadow: none;
+}
+
+.btn-xl { 
+  padding:  1rem 2rem;
+}
+
+hr {
+    margin: 20px auto;
+    color: #82628f;
+    border: 5px solid black;
+    border-radius:  300px;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer {
+  height:  5rem;
+}
+
+footer{
+  position: absolute;
+  right: 0;bottom: 0;left: 0;
+}
